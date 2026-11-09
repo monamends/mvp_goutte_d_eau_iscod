@@ -1,0 +1,15 @@
+{
+  "station_id": "07110",
+  "station": "Brest Guipavas",
+  "target_date": "2026-11-04",
+  "observation_cutoff_utc": "2026-11-03T06:00:00+00:00",
+  "target_window_utc": "2026-11-03 06:00 → 2026-11-04 06:00 UTC",
+  "probability": 0.21419,
+  "threshold": 0.2,
+  "rain_expected": true,
+  "model": "random_forest",
+  "model_train_until": "2023-12-31",
+  "retrospective": true,
+  "warning": "MVP expérimental ; estimation stationnelle, pas une alerte officielle ni une prévision à 1 km.",
+  "latency_ms": 32.219
+}

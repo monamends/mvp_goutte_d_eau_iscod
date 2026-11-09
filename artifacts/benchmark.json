@@ -1,0 +1,6 @@
+{
+  "requests": 100,
+  "method": "FastAPI TestClient local, sans r\u00e9seau Internet",
+  "median_ms": 22.87,
+  "p95_ms": 33.61
+}

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.log
+.streamlit/secrets.toml
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+artifacts/*.tmp

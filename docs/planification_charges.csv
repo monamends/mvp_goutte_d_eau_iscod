@@ -1,0 +1,8 @@
+phase;semaines;data_scientist_j;data_engineer_j;backend_j;ux_front_j;chef_projet_j;qualite_securite_rgpd_j;total_j;cout_prestations_ht_eur
+Cadrage;S1-S2;3;2;0;2;4;1;12;7150
+Donnees et socle;S3-S4;5;8;2;0;1;0;16;9150
+Developpement MVP;S5-S8;14;5;10;4;1;0;34;19300
+Validation et pilote;S9-S12;8;3;3;5;2;1;22;12550
+Industrialisation;S13-S16;3;4;4;2;3;2;18;10450
+Extension et suivi;S17-S24;7;3;1;2;4;1;18;10650
+TOTAL;;40;25;20;15;15;5;120;69250

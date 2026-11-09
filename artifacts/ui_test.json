@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "brest": [
+    [
+      "Probabilit\u00e9 d\u2019au moins 1 mm de pluie",
+      "21.4%"
+    ]
+  ],
+  "rennes": [
+    [
+      "Probabilit\u00e9 d\u2019au moins 1 mm de pluie",
+      "16.4%"
+    ]
+  ],
+  "method": "Streamlit AppTest et v\u00e9ritable serveur FastAPI local"
+}

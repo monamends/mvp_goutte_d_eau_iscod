@@ -1,0 +1,109 @@
+{
+  "processed_at_utc": "2026-11-09T12:13:44.339976+00:00",
+  "source": "M\u00e9t\u00e9o-France SYNOP via API publique Opendatasoft",
+  "licence": "Licence Ouverte Etalab \u2014 v\u00e9rifier la fiche producteur lors de la r\u00e9utilisation",
+  "stations": {
+    "07110": "Brest Guipavas",
+    "07130": "Rennes Saint-Jacques"
+  },
+  "raw_records": 4983,
+  "clean_rows": 4983,
+  "min_day": "2020-01-01",
+  "max_day": "2026-11-03",
+  "missing_fraction": {
+    "station_id": 0.0,
+    "observed_at": 0.0,
+    "day": 0.0,
+    "temperature_c": 0.0002006823198876179,
+    "humidity_pct": 0.0006020469596628537,
+    "pressure_hpa": 0.0010034115994380895,
+    "wind_ms": 0.0004013646397752358,
+    "rain_prev_mm": 0.1288380493678507
+  },
+  "files": [
+    {
+      "file": "synop_2020-01-01_2021-01-01.json",
+      "records": 732,
+      "sha256": "618fe84a11416e1e5bf7fa035b916a40deebfd94f3a699b2bedc0fc3189ef4fa",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2020-01-01' AND date < date'2021-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2021-01-01_2022-01-01.json",
+      "records": 730,
+      "sha256": "f858195383b5de46016e25158c32f5540fa23da896c4dd248443972990d8053f",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2021-01-01' AND date < date'2022-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2022-01-01_2023-01-01.json",
+      "records": 729,
+      "sha256": "7447306821fc69401442b9088e3d81f5a3e02d0db241c32ebd7648bf12e7f445",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2022-01-01' AND date < date'2023-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2023-01-01_2024-01-01.json",
+      "records": 722,
+      "sha256": "4cdb8c4c07b16f6b75b80995a027c937f0771d0052473cfce0f1efd85c49fcf7",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2023-01-01' AND date < date'2024-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2024-01-01_2025-01-01.json",
+      "records": 730,
+      "sha256": "19f00ddf3023bbd3608dc504a700a844bfe994be4d2dc4be7f80ed43cdbf881e",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2024-01-01' AND date < date'2025-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2025-01-01_2026-01-01.json",
+      "records": 728,
+      "sha256": "e75b1e58c721b680fd867180eb49fd8d87d20b5a0c6657ec55dfe4dd9a7b92d9",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2025-01-01' AND date < date'2026-01-01' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    },
+    {
+      "file": "synop_2026-01-01_2026-11-04.json",
+      "records": 612,
+      "sha256": "73b258d05bafaf8d3b0ab0f9e3583d1ba7f26e54bb7879ddd91e206a147e2eff",
+      "endpoint": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/exports/json",
+      "params": {
+        "select": "numer_sta,date,t,u,pmer,ff,rr24,code_reg",
+        "where": "numer_sta in ('07110','07130') AND code_reg='53' AND date >= date'2026-01-01' AND date < date'2026-11-04' AND hour(date)=6",
+        "order_by": "date,numer_sta",
+        "limit": -1
+      }
+    }
+  ]
+}

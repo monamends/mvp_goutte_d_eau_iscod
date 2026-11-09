@@ -1,0 +1,1265 @@
+{
+  "visibility": "domain",
+  "fields": [
+    {
+      "name": "numer_sta",
+      "description": null,
+      "annotations": {},
+      "label": "Identifiant OMM de la station",
+      "type": "text",
+      "label_en": "Identifiant OMM de la station",
+      "label_fr": "Identifiant OMM de la station",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "date",
+      "description": null,
+      "annotations": {},
+      "label": "Date",
+      "type": "datetime",
+      "label_en": "Date",
+      "label_fr": "Date",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "pmer",
+      "description": null,
+      "annotations": {
+        "unit": "Pa"
+      },
+      "label": "Pression au niveau de la mer",
+      "type": "int",
+      "label_en": "Pression au niveau de la mer",
+      "label_fr": "Pression au niveau de la mer",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tend",
+      "description": null,
+      "annotations": {
+        "unit": "Pa"
+      },
+      "label": "Variation de pression en 3 heures",
+      "type": "double",
+      "label_en": "Variation de pression en 3 heures",
+      "label_fr": "Variation de pression en 3 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "cod_tend",
+      "description": null,
+      "annotations": {},
+      "label": "Type de tendance barométrique (code)",
+      "type": "text",
+      "label_en": "Type de tendance barométrique (code)",
+      "label_fr": "Type de tendance barométrique (code)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "dd",
+      "description": null,
+      "annotations": {
+        "unit": "°"
+      },
+      "label": "Direction du vent moyen 10 mn",
+      "type": "int",
+      "label_en": "Direction du vent moyen 10 mn",
+      "label_fr": "Direction du vent moyen 10 mn",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ff",
+      "description": null,
+      "annotations": {
+        "unit": "m/s"
+      },
+      "label": "Vitesse du vent moyen 10 mn",
+      "type": "double",
+      "label_en": "Vitesse du vent moyen 10 mn",
+      "label_fr": "Vitesse du vent moyen 10 mn",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "t",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température",
+      "type": "double",
+      "label_en": "Température",
+      "label_fr": "Température",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "td",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Point de rosée",
+      "type": "double",
+      "label_en": "Point de rosée",
+      "label_fr": "Point de rosée",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "u",
+      "description": null,
+      "annotations": {
+        "unit": "%"
+      },
+      "label": "Humidité",
+      "type": "int",
+      "label_en": "Humidité",
+      "label_fr": "Humidité",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "vv",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Visibilité horizontale",
+      "type": "double",
+      "label_en": "Visibilité horizontale",
+      "label_fr": "Visibilité horizontale",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ww",
+      "description": null,
+      "annotations": {},
+      "label": "Temps présent (code)",
+      "type": "text",
+      "label_en": "Temps présent (code)",
+      "label_fr": "Temps présent (code)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "w1",
+      "description": null,
+      "annotations": {},
+      "label": "Temps passé 1 (code)",
+      "type": "text",
+      "label_en": "Temps passé 1 (code)",
+      "label_fr": "Temps passé 1 (code)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "w2",
+      "description": null,
+      "annotations": {},
+      "label": "Temps passé 2 (code)",
+      "type": "text",
+      "label_en": "Temps passé 2 (code)",
+      "label_fr": "Temps passé 2 (code)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "n",
+      "description": null,
+      "annotations": {
+        "unit": "%"
+      },
+      "label": "Nébulosité totale",
+      "type": "double",
+      "label_en": "Nébulosité totale",
+      "label_fr": "Nébulosité totale",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nbas",
+      "description": null,
+      "annotations": {
+        "unit": "octa"
+      },
+      "label": "Nébulosité des nuages de l'étage inférieur",
+      "type": "text",
+      "label_en": "Nébulosité des nuages de l'étage inférieur",
+      "label_fr": "Nébulosité des nuages de l'étage inférieur",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "hbas",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur de la base des nuages de l'étage inférieur",
+      "type": "double",
+      "label_en": "Hauteur de la base des nuages de l'étage inférieur",
+      "label_fr": "Hauteur de la base des nuages de l'étage inférieur",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "cl",
+      "description": null,
+      "annotations": {},
+      "label": "Type des nuages de l'étage inférieur",
+      "type": "text",
+      "label_en": "Type des nuages de l'étage inférieur",
+      "label_fr": "Type des nuages de l'étage inférieur",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "cm",
+      "description": null,
+      "annotations": {},
+      "label": "Type des nuages de l'étage moyen",
+      "type": "text",
+      "label_en": "Type des nuages de l'étage moyen",
+      "label_fr": "Type des nuages de l'étage moyen",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ch",
+      "description": null,
+      "annotations": {},
+      "label": "Type des nuages de l'étage supérieur",
+      "type": "text",
+      "label_en": "Type des nuages de l'étage supérieur",
+      "label_fr": "Type des nuages de l'étage supérieur",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "pres",
+      "description": null,
+      "annotations": {
+        "unit": "Pa"
+      },
+      "label": "Pression station",
+      "type": "double",
+      "label_en": "Pression station",
+      "label_fr": "Pression station",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tend24",
+      "description": null,
+      "annotations": {
+        "unit": "Pa"
+      },
+      "label": "Variation de pression en 24 heures",
+      "type": "double",
+      "label_en": "Variation de pression en 24 heures",
+      "label_fr": "Variation de pression en 24 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tn12",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température minimale sur 12 heures",
+      "type": "double",
+      "label_en": "Température minimale sur 12 heures",
+      "label_fr": "Température minimale sur 12 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tn24",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température minimale sur 24 heures",
+      "type": "double",
+      "label_en": "Température minimale sur 24 heures",
+      "label_fr": "Température minimale sur 24 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tx12",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température maximale sur 12 heures",
+      "type": "double",
+      "label_en": "Température maximale sur 12 heures",
+      "label_fr": "Température maximale sur 12 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tx24",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température maximale sur 24 heures",
+      "type": "double",
+      "label_en": "Température maximale sur 24 heures",
+      "label_fr": "Température maximale sur 24 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tminsol",
+      "description": null,
+      "annotations": {
+        "unit": "K"
+      },
+      "label": "Température minimale du sol sur 12 heures",
+      "type": "double",
+      "label_en": "Température minimale du sol sur 12 heures",
+      "label_fr": "Température minimale du sol sur 12 heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "raf10",
+      "description": null,
+      "annotations": {
+        "unit": "m/s"
+      },
+      "label": "Rafale sur les 10 dernières minutes",
+      "type": "double",
+      "label_en": "Rafale sur les 10 dernières minutes",
+      "label_fr": "Rafale sur les 10 dernières minutes",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rafper",
+      "description": null,
+      "annotations": {
+        "unit": "m/s"
+      },
+      "label": "Rafales sur une période",
+      "type": "double",
+      "label_en": "Rafales sur une période",
+      "label_fr": "Rafales sur une période",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "per",
+      "description": null,
+      "annotations": {
+        "unit": "min"
+      },
+      "label": "Période de mesure de la rafale",
+      "type": "double",
+      "label_en": "Période de mesure de la rafale",
+      "label_fr": "Période de mesure de la rafale",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "etat_sol",
+      "description": null,
+      "annotations": {},
+      "label": "État du sol",
+      "type": "text",
+      "label_en": "État du sol",
+      "label_fr": "État du sol",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ht_neige",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur totale de la couche de neige, glace, autre au sol",
+      "type": "double",
+      "label_en": "Hauteur totale de la couche de neige, glace, autre au sol",
+      "label_fr": "Hauteur totale de la couche de neige, glace, autre au sol",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ssfrai",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur de la neige fraîche",
+      "type": "double",
+      "label_en": "Hauteur de la neige fraîche",
+      "label_fr": "Hauteur de la neige fraîche",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "perssfrai",
+      "description": null,
+      "annotations": {
+        "unit": "1/10 h"
+      },
+      "label": "Période de mesure de la neige fraîche",
+      "type": "double",
+      "label_en": "Période de mesure de la neige fraîche",
+      "label_fr": "Période de mesure de la neige fraîche",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rr1",
+      "description": null,
+      "annotations": {
+        "unit": "mm"
+      },
+      "label": "Précipitations dans la dernière heure",
+      "type": "double",
+      "label_en": "Précipitations dans la dernière heure",
+      "label_fr": "Précipitations dans la dernière heure",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rr3",
+      "description": null,
+      "annotations": {
+        "unit": "mm"
+      },
+      "label": "Précipitations dans les 3 dernières heures",
+      "type": "double",
+      "label_en": "Précipitations dans les 3 dernières heures",
+      "label_fr": "Précipitations dans les 3 dernières heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rr6",
+      "description": null,
+      "annotations": {
+        "unit": "mm"
+      },
+      "label": "Précipitations dans les 6 dernières heures",
+      "type": "double",
+      "label_en": "Précipitations dans les 6 dernières heures",
+      "label_fr": "Précipitations dans les 6 dernières heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rr12",
+      "description": null,
+      "annotations": {
+        "unit": "mm"
+      },
+      "label": "Précipitations dans les 12 dernières heures",
+      "type": "double",
+      "label_en": "Précipitations dans les 12 dernières heures",
+      "label_fr": "Précipitations dans les 12 dernières heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rr24",
+      "description": null,
+      "annotations": {
+        "unit": "mm"
+      },
+      "label": "Précipitations dans les 24 dernières heures",
+      "type": "double",
+      "label_en": "Précipitations dans les 24 dernières heures",
+      "label_fr": "Précipitations dans les 24 dernières heures",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nnuage1",
+      "description": null,
+      "annotations": {
+        "unit": "octa"
+      },
+      "label": "Nébulosité couche nuageuse 1",
+      "type": "double",
+      "label_en": "Nébulosité couche nuageuse 1",
+      "label_fr": "Nébulosité couche nuageuse 1",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ctype1",
+      "description": null,
+      "annotations": {},
+      "label": "Type nuage 1",
+      "type": "text",
+      "label_en": "Type nuage 1",
+      "label_fr": "Type nuage 1",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "hnuage1",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur de base 1",
+      "type": "double",
+      "label_en": "Hauteur de base 1",
+      "label_fr": "Hauteur de base 1",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nnuage2",
+      "description": null,
+      "annotations": {
+        "unit": "octa"
+      },
+      "label": "Nébulosité couche nuageuse 2",
+      "type": "double",
+      "label_en": "Nébulosité couche nuageuse 2",
+      "label_fr": "Nébulosité couche nuageuse 2",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ctype2",
+      "description": null,
+      "annotations": {},
+      "label": "Type nuage 2",
+      "type": "text",
+      "label_en": "Type nuage 2",
+      "label_fr": "Type nuage 2",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "hnuage2",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur de base 2",
+      "type": "double",
+      "label_en": "Hauteur de base 2",
+      "label_fr": "Hauteur de base 2",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nnuage3",
+      "description": null,
+      "annotations": {
+        "unit": "octa"
+      },
+      "label": "Nébulosité couche nuageuse 3",
+      "type": "double",
+      "label_en": "Nébulosité couche nuageuse 3",
+      "label_fr": "Nébulosité couche nuageuse 3",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ctype3",
+      "description": null,
+      "annotations": {},
+      "label": "Type nuage 3",
+      "type": "text",
+      "label_en": "Type nuage 3",
+      "label_fr": "Type nuage 3",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "hnuage3",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Hauteur de base 3",
+      "type": "double",
+      "label_en": "Hauteur de base 3",
+      "label_fr": "Hauteur de base 3",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ctype4",
+      "description": null,
+      "annotations": {},
+      "label": "Type nuage 4",
+      "type": "text",
+      "label_en": "Type nuage 4",
+      "label_fr": "Type nuage 4",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nom",
+      "description": null,
+      "annotations": {},
+      "label": "Nom de la station",
+      "type": "text",
+      "label_en": "Nom de la station",
+      "label_fr": "Nom de la station",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "coordonnees",
+      "description": null,
+      "annotations": {},
+      "label": "Coordonnées",
+      "type": "geo_point_2d",
+      "label_en": "Coordonnées",
+      "label_fr": "Coordonnées",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "type_de_tendance_barometrique",
+      "description": null,
+      "annotations": {},
+      "label": "Type de tendance barométrique",
+      "type": "text",
+      "label_en": "Type de tendance barométrique",
+      "label_fr": "Type de tendance barométrique",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "temps_passe_1",
+      "description": null,
+      "annotations": {},
+      "label": "Temps passé 1",
+      "type": "text",
+      "label_en": "Temps passé 1",
+      "label_fr": "Temps passé 1",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "temps_passe_2",
+      "description": null,
+      "annotations": {},
+      "label": "Temps passé 2",
+      "type": "text",
+      "label_en": "Temps passé 2",
+      "label_fr": "Temps passé 2",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "temps_present",
+      "description": null,
+      "annotations": {},
+      "label": "Temps présent",
+      "type": "text",
+      "label_en": "Temps présent",
+      "label_fr": "Temps présent",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tc",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température (°C)",
+      "type": "double",
+      "label_en": "Température (°C)",
+      "label_fr": "Température (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tdc",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Point de rosée (°C)",
+      "type": "double",
+      "label_en": "Point de rosée (°C)",
+      "label_fr": "Point de rosée (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tn12c",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température minimale sur 12 heures (°C)",
+      "type": "double",
+      "label_en": "Température minimale sur 12 heures (°C)",
+      "label_fr": "Température minimale sur 12 heures (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tn24c",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température minimale sur 24 heures (°C)",
+      "type": "double",
+      "label_en": "Température minimale sur 24 heures (°C)",
+      "label_fr": "Température minimale sur 24 heures (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tx12c",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température maximale sur 12 heures (°C)",
+      "type": "double",
+      "label_en": "Température maximale sur 12 heures (°C)",
+      "label_fr": "Température maximale sur 12 heures (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tx24c",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température maximale sur 24 heures (°C)",
+      "type": "double",
+      "label_en": "Température maximale sur 24 heures (°C)",
+      "label_fr": "Température maximale sur 24 heures (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "tminsolc",
+      "description": null,
+      "annotations": {
+        "unit": "°C"
+      },
+      "label": "Température minimale du sol sur 12 heures (°C)",
+      "type": "double",
+      "label_en": "Température minimale du sol sur 12 heures (°C)",
+      "label_fr": "Température minimale du sol sur 12 heures (°C)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "pmer_hpa",
+      "description": null,
+      "annotations": {
+        "unit": "hPa"
+      },
+      "label": "Pression au niveau de la mer (hPa)",
+      "type": "double",
+      "label_en": "Pression au niveau de la mer (hPa)",
+      "label_fr": "Pression au niveau de la mer (hPa)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "pres_hpa",
+      "description": null,
+      "annotations": {
+        "unit": "hPa"
+      },
+      "label": "Pression station (hPa)",
+      "type": "double",
+      "label_en": "Pression station (hPa)",
+      "label_fr": "Pression station (hPa)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "ff_kmh",
+      "description": null,
+      "annotations": {
+        "unit": "km/h"
+      },
+      "label": "Vitesse du vent moyen 10 mn (km/h)",
+      "type": "double",
+      "label_en": "Vitesse du vent moyen 10 mn (km/h)",
+      "label_fr": "Vitesse du vent moyen 10 mn (km/h)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "rafper_kmh",
+      "description": null,
+      "annotations": {
+        "unit": "km/h"
+      },
+      "label": "Rafales sur une période (km/h)",
+      "type": "double",
+      "label_en": "Rafales sur une période (km/h)",
+      "label_fr": "Rafales sur une période (km/h)",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "direction_vent",
+      "description": null,
+      "annotations": {},
+      "label": "Direction du vent",
+      "type": "text",
+      "label_en": "Direction du vent",
+      "label_fr": "Direction du vent",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "latitude",
+      "description": null,
+      "annotations": {},
+      "label": "Latitude",
+      "type": "double",
+      "label_en": "Latitude",
+      "label_fr": "Latitude",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "longitude",
+      "description": null,
+      "annotations": {},
+      "label": "Longitude",
+      "type": "double",
+      "label_en": "Longitude",
+      "label_fr": "Longitude",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "altitude",
+      "description": null,
+      "annotations": {
+        "unit": "m"
+      },
+      "label": "Altitude de la station",
+      "type": "int",
+      "label_en": "Altitude de la station",
+      "label_fr": "Altitude de la station",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "date_ouverture_station",
+      "description": null,
+      "annotations": {},
+      "label": "Date d'ouverture de la station",
+      "type": "date",
+      "label_en": "Date d'ouverture de la station",
+      "label_fr": "Date d'ouverture de la station",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "annee",
+      "description": null,
+      "annotations": {},
+      "label": "Année",
+      "type": "int",
+      "label_en": "Année",
+      "label_fr": "Année",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "mois_de_l_annee",
+      "description": null,
+      "annotations": {},
+      "label": "Mois de l'année",
+      "type": "int",
+      "label_en": "Mois de l'année",
+      "label_fr": "Mois de l'année",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "libgeo",
+      "description": null,
+      "annotations": {},
+      "label": "Commune",
+      "type": "text",
+      "label_en": "Commune",
+      "label_fr": "Commune",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "codegeo",
+      "description": null,
+      "annotations": {},
+      "label": "Code commune",
+      "type": "text",
+      "label_en": "Code commune",
+      "label_fr": "Code commune",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nom_epci",
+      "description": null,
+      "annotations": {},
+      "label": "EPCI",
+      "type": "text",
+      "label_en": "EPCI",
+      "label_fr": "EPCI",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "code_epci",
+      "description": null,
+      "annotations": {},
+      "label": "Code EPCI",
+      "type": "text",
+      "label_en": "Code EPCI",
+      "label_fr": "Code EPCI",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nom_dept",
+      "description": null,
+      "annotations": {},
+      "label": "Département",
+      "type": "text",
+      "label_en": "Département",
+      "label_fr": "Département",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "code_dep",
+      "description": null,
+      "annotations": {},
+      "label": "Code département",
+      "type": "text",
+      "label_en": "Code département",
+      "label_fr": "Code département",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "nom_reg",
+      "description": null,
+      "annotations": {},
+      "label": "Région",
+      "type": "text",
+      "label_en": "Région",
+      "label_fr": "Région",
+      "description_en": null,
+      "description_fr": null
+    },
+    {
+      "name": "code_reg",
+      "description": null,
+      "annotations": {},
+      "label": "Code région",
+      "type": "text",
+      "label_en": "Code région",
+      "label_fr": "Code région",
+      "description_en": null,
+      "description_fr": null
+    }
+  ],
+  "dataset_id": "donnees-synop-essentielles-omm",
+  "dataset_uid": "da_1f94xu",
+  "has_records": true,
+  "features": [
+    "geo",
+    "timeserie",
+    "analyze"
+  ],
+  "attachments": [
+    {
+      "id": "wmo_306_v1_1_2012_fr_pdf",
+      "title": "wmo_306-v1_1-2012_fr.pdf",
+      "mimetype": "application/pdf",
+      "url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/donnees-synop-essentielles-omm/attachments/wmo_306_v1_1_2012_fr_pdf"
+    }
+  ],
+  "alternative_exports": [],
+  "data_visible": true,
+  "metas": {
+    "default": {
+      "title": "Observations météorologiques historiques France (SYNOP)",
+      "title_en": "Observations météorologiques historiques France (SYNOP)",
+      "title_fr": "Observations météorologiques historiques France (SYNOP)",
+      "description": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "description_en": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "description_fr": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "theme": [
+        "Environment"
+      ],
+      "theme_en": [
+        "Environment"
+      ],
+      "theme_fr": [
+        "Environnement"
+      ],
+      "keyword": [
+        "météo",
+        "météorologie",
+        "SYNOP",
+        "OMM",
+        "Météo-France",
+        "station météo",
+        "observations",
+        "température",
+        "pression",
+        "humidité",
+        "vent",
+        "précipitations",
+        "atmosphérique"
+      ],
+      "keyword_en": [
+        "météo",
+        "météorologie",
+        "SYNOP",
+        "OMM",
+        "Météo-France",
+        "station météo",
+        "observations",
+        "température",
+        "pression",
+        "humidité",
+        "vent",
+        "précipitations",
+        "atmosphérique"
+      ],
+      "keyword_fr": [
+        "météo",
+        "météorologie",
+        "SYNOP",
+        "OMM",
+        "Météo-France",
+        "station météo",
+        "observations",
+        "température",
+        "pression",
+        "humidité",
+        "vent",
+        "précipitations",
+        "atmosphérique"
+      ],
+      "license": "Open License v1.0",
+      "license_en": "Open License v1.0",
+      "license_fr": "Licence Ouverte v1.0",
+      "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+      "license_url_en": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+      "license_url_fr": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+      "language": "fr",
+      "modified": "2026-11-08T21:00:05+00:00",
+      "publisher": "Météo-France",
+      "publisher_en": "Météo-France",
+      "publisher_fr": "Météo-France",
+      "references": "https://www.data.gouv.fr/datasets/archive-synop-omm",
+      "attributions": [
+        "Météo-France",
+        "INSEE IGN NaturalEarth DGCL - BANATIC MEFR MAA",
+        "INSEE IGN OFGL",
+        "INSEE IGN NaturalEarth DGGL",
+        "INSEE IGN NaturalEarth"
+      ],
+      "update_frequency": null,
+      "bbox": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                140.00099999830127,
+                50.56999996304512
+              ],
+              [
+                -62.85216704942286,
+                50.56999996304512
+              ],
+              [
+                -62.85216704942286,
+                -66.66316700633615
+              ],
+              [
+                140.00099999830127,
+                -66.66316700633615
+              ],
+              [
+                140.00099999830127,
+                50.56999996304512
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {}
+      },
+      "data_processed": "2026-11-08T21:00:05+00:00",
+      "federated": false,
+      "geographic_reference": [
+        "world"
+      ],
+      "geographic_reference_auto": false,
+      "geometry_types": [
+        "Point"
+      ],
+      "metadata_languages": [
+        "fr"
+      ],
+      "metadata_processed": "2026-11-08T21:00:06.309000+00:00",
+      "modified_updates_on_data_change": true,
+      "modified_updates_on_metadata_change": true,
+      "parent_domain": null,
+      "records_count": 2773893,
+      "shared_catalog": null,
+      "source_dataset": null,
+      "source_domain": null,
+      "source_domain_address": null,
+      "source_domain_title": null,
+      "territory": [
+        "World"
+      ],
+      "timezone": "UTC"
+    },
+    "dcat": {
+      "created": null,
+      "issued": null,
+      "creator": "Météo-France",
+      "contributor": "Huwise",
+      "contact_name": null,
+      "contact_email": null,
+      "accrualperiodicity": null,
+      "spatial": "France",
+      "temporal": "Depuis 2010",
+      "granularity": null,
+      "dataquality": null,
+      "publisher_type": "NationalAuthority",
+      "conforms_to": null,
+      "temporal_coverage_start": null,
+      "temporal_coverage_end": null,
+      "accessRights": null,
+      "relation": null
+    },
+    "dublin-core": {
+      "title": "Observations météorologiques historiques France (SYNOP)",
+      "title_en": "Observations météorologiques historiques France (SYNOP)",
+      "title_fr": "Observations météorologiques historiques France (SYNOP)",
+      "description": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "description_en": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "description_fr": "<p>Observations météorologiques relevées toutes les 3 heures depuis 2010 par les 62 principales stations de Météo-France, en métropole et en outre-mer : température, humidité, vent, pression atmosphérique, précipitations, nébulosité, visibilité et temps présent.</p>\n<p>Ces données sont issues des messages internationaux d'observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l'Organisation Météorologique Mondiale (OMM). Les paramètres atmosphériques sont mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon l'instrumentation et les spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.).</p>\n<p>Pour faciliter l'analyse, les températures sont également fournies en degrés Celsius, la pression en hectopascals et le vent en km/h. Les codes OMM du temps présent, du temps passé et de la tendance barométrique sont accompagnés de leur libellé, et chaque station est rattachée à sa commune, son EPCI, son département et sa région.</p>\n<p>Source : Météo-France, <a href=\"https://www.data.gouv.fr/datasets/archive-synop-omm\">Archive Synop OMM</a> sur data.gouv.fr.</p>",
+      "publisher": "Météo-France",
+      "publisher_en": "Météo-France",
+      "publisher_fr": "Météo-France",
+      "license": "Open License v1.0",
+      "license_en": "Open License v1.0",
+      "license_fr": "Licence Ouverte v1.0",
+      "modified": "2026-11-08T21:00:05+00:00",
+      "alternative": null,
+      "subject": null,
+      "abstract": null,
+      "tableOfContent": null,
+      "type": null,
+      "language": null,
+      "coverage": null,
+      "spatial": null,
+      "temporal_start": null,
+      "temporal_end": null,
+      "relation": null,
+      "source": null,
+      "replaces": null,
+      "references": null,
+      "requires": null,
+      "conformsTo": null,
+      "hasFormat": null,
+      "hasPart": null,
+      "hasVersion": null,
+      "isFormatOf": null,
+      "isPartOf": null,
+      "isVersionOf": null,
+      "isReferencedBy": null,
+      "isReplacedBy": null,
+      "isRequiredBy": null,
+      "contributor": null,
+      "creator": null,
+      "rights": null,
+      "accessRights": null,
+      "date_start": null,
+      "date_end": null,
+      "available_start": null,
+      "available_end": null,
+      "created": null,
+      "dateAccepted": null,
+      "dateCopyrighted": null,
+      "dateSubmitted": null,
+      "issued": null,
+      "valid_start": null,
+      "valid_end": null,
+      "format": null,
+      "extent": null,
+      "medium": null,
+      "identifier": null,
+      "bibliographicCitation": null,
+      "rightsHolder": null,
+      "accrualMethod": null,
+      "accrualPeriodicity": null,
+      "accrualPolicy": null,
+      "audience": null,
+      "educationLevel": null,
+      "instructionalMethod": null,
+      "mediator": null,
+      "provenance": null
+    },
+    "inspire": {
+      "theme": null,
+      "type": null,
+      "file_identifier": null,
+      "contact_individual_name": null,
+      "contact_position": null,
+      "contact_address": null,
+      "contact_email": null,
+      "identification_purpose": null,
+      "extend_description": null,
+      "extend_bounding_box_westbound_longitude": null,
+      "extend_bounding_box_eastbound_longitude": null,
+      "extend_bounding_box_southbound_latitude": null,
+      "extend_bounding_box_northbound_latitude": null,
+      "hierarchy_level": null,
+      "hierarchy_level_name": null,
+      "spatial_resolution": null,
+      "topologic_consistency": null
+    },
+    "custom": {
+      "referential": false,
+      "depreciated": null
+    },
+    "semantic": {
+      "classes": null,
+      "properties": null,
+      "rml_mapping": null
+    }
+  }
+}
